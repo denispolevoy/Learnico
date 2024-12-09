@@ -210,3 +210,60 @@ a {
   left: -100px;
 }
 /* SECTION 1 END */
+.main__title {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 330px;
+  /* height: 392px; */
+}
+
+/* about START */
+.about-bg {
+  background-color: #ffffff;
+}
+.about {
+  padding: 64px 256px;
+  background-color: #fcd8ca;
+  border-radius: 10px;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.about__us {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #1f2937;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+.about__h2 {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+.about__descr {
+  color: #374151;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.about__link {
+  display: inline-block;
+  background-color: #1f2937;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 13px 25px;
+}
+/* about END */
