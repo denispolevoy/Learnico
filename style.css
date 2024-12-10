@@ -275,7 +275,7 @@ a {
   justify-content: space-between;
   gap: 20px;
   align-items: center;
-  margin-bottom: 128px;
+  padding-bottom: 128px;
 }
 
 .premium-2 {
@@ -346,3 +346,106 @@ a {
   font-weight: 700;
 }
 /* Premium end */
+/* Popular start */
+.popular__content {
+  text-align: center;
+}
+.popular__content h5 {
+  font-family: "Poppins", serif;
+  color: #1f2937;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 30px;
+}
+.popular__link {
+  display: inline-block;
+  color: #1f2937;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  background-color: #fcd8ca;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 11px;
+}
+.popular__description {
+  color: #4b5563;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  max-width: 730px;
+  margin: 0 auto;
+  margin-bottom: 63px;
+}
+
+.popular__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 23px;
+  margin-bottom: 128px;
+}
+.popular__card {
+  background-color: #00353b;
+  width: 405px;
+  min-height: 500px;
+  border-radius: 10px;
+  padding: 32px 24px;
+}
+.popular__links {
+  display: inline-block;
+  color: #1f2937;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.popular__webflow {
+  display: block;
+  font-family: "Poppins", serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 15px;
+}
+.popular__money {
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.popular__btn {
+  color: #ffffff;
+  background-color: #22a45a;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 9px 21px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 142px;
+}
+.popular__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.popular__img {
+  width: 315px;
+  height: 315px;
+  position: absolute;
+  bottom: -40px;
+  right: -85px;
+}
+.popular__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* Popular end */
