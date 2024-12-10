@@ -267,3 +267,82 @@ a {
   padding: 13px 25px;
 }
 /* about END */
+/* Premium start */
+.container {
+}
+.premium {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 128px;
+}
+
+.premium-2 {
+  flex-direction: row-reverse;
+}
+.premium__bg {
+  background: url("img/human.png") center / cover no-repeat;
+  height: 592px;
+  width: 576px;
+}
+
+.premium__bg-2 {
+  background: url("img/people.png") center / cover no-repeat;
+  height: 592px;
+  width: 576px;
+}
+.premium__content {
+  max-width: 576px;
+}
+.premium__text {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+.premium__p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #4b5563;
+  margin-bottom: 40px;
+}
+.premium__p span {
+  display: inline-block;
+  width: 25px;
+}
+.premium__buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.premium__link {
+  cursor: pointer;
+  background-color: #1f2937;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 15px 25px;
+  margin-right: 15px;
+}
+.premium__button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 15px 25px;
+}
+.premium__span1 {
+  font-size: 18px;
+}
+.premium__span2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+/* Premium end */
