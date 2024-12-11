@@ -7,7 +7,6 @@ body {
   font-family: "DM Sans", serif;
   /* font-family: "Poppins", serif; */
 }
-
 .award {
   position: relative;
   display: flex;
@@ -24,7 +23,6 @@ body {
 .award__images img {
   cursor: pointer;
 }
-
 .award__img {
   position: absolute;
   top: 14px;
@@ -38,13 +36,11 @@ body {
   min-height: 72px;
   margin: 0 auto;
 }
-
 a {
   color: white;
   font-size: 15px;
   text-decoration: none;
 }
-
 /* header start*/
 .header {
   background-color: #00353b;
@@ -53,8 +49,6 @@ a {
   display: flex;
   align-items: center;
   gap: 24px;
-}
-.header__nav a {
 }
 .header__card {
   display: flex;
@@ -81,9 +75,7 @@ a {
   border-radius: 10px;
   font-size: 16px;
 }
-
 /*header end*/
-
 /* SECTION 1 START */
 .main {
   background-color: #00353b;
@@ -165,7 +157,6 @@ a {
   width: 600px;
   height: 640px;
 }
-
 .reviews {
   display: flex;
   align-items: center;
@@ -175,7 +166,6 @@ a {
   display: flex;
   align-items: center;
 }
-
 .icon-star-full,
 .icon-star-half {
   font-size: 26px;
@@ -193,7 +183,6 @@ a {
   color: #ffffff;
   text-align: center;
 }
-
 .reviews__img {
   width: 48px;
   height: 48px;
@@ -203,7 +192,6 @@ a {
   height: 100%;
   object-fit: cover;
 }
-
 .content__video-bg {
   position: absolute;
   bottom: 100px;
@@ -229,7 +217,6 @@ a {
   text-align: center;
   transform: translateY(-50%);
 }
-
 .about__us {
   display: inline-block;
   background-color: #ffffff;
@@ -268,8 +255,6 @@ a {
 }
 /* about END */
 /* Premium start */
-.container {
-}
 .premium {
   display: flex;
   justify-content: space-between;
@@ -378,7 +363,6 @@ a {
   margin: 0 auto;
   margin-bottom: 63px;
 }
-
 .popular__cards {
   display: flex;
   justify-content: space-between;
@@ -506,7 +490,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 200px;
 }
 .learn__images {
   position: relative;
@@ -537,5 +520,92 @@ a {
   font-size: 16px;
   line-height: 24px;
 }
-
 /* Student END */
+/* TEACHERS START */
+.teachers {
+  text-align: center;
+  padding: 100px 0;
+}
+.teachers__link {
+  display: inline-block;
+  color: #1f2937;
+  background-color: #fcd8ca;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 11px;
+}
+.teachers__title {
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: "Poppins", serif;
+  color: #1f2937;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 28px;
+}
+.teachers__descr {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #4b5563;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+.teachers__content {
+  margin-bottom: 80px;
+}
+
+.teachers__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.teachers__over {
+}
+.over {
+  width: 240px;
+  margin-bottom: 64px;
+}
+.teachers__images {
+  margin-bottom: 24px;
+}
+.teachers__hours {
+  display: inline-block;
+  font-family: "Poppins", serif;
+  color: #1f2937;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 15px;
+}
+.teachers__hourse-title {
+  color: #4b5563;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.teachers__bg {
+  width: 504px;
+  height: 600px;
+  background: url("img/wooman.png") center / cover no-repeat;
+}
+.teachers__button {
+}
+.teachers__btns {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  background-color: #1f2937;
+  padding: 13px 25px;
+  border-radius: 8px;
+}
+
+/* TEACHERS END */
