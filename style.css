@@ -524,7 +524,7 @@ a {
 /* TEACHERS START */
 .teachers {
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 450px;
 }
 .teachers__link {
   display: inline-block;
@@ -565,8 +565,6 @@ a {
   align-items: center;
   margin-bottom: 80px;
 }
-.teachers__over {
-}
 .over {
   width: 240px;
   margin-bottom: 64px;
@@ -595,8 +593,6 @@ a {
   height: 600px;
   background: url("img/wooman.png") center / cover no-repeat;
 }
-.teachers__button {
-}
 .teachers__btns {
   display: inline-block;
   font-size: 16px;
@@ -607,5 +603,112 @@ a {
   padding: 13px 25px;
   border-radius: 8px;
 }
-
 /* TEACHERS END */
+/* SAY START */
+.say {
+  background-color: #fcd8ca;
+  padding: 50px 0;
+  transform: translateY(-50%);
+  border-radius: 24px;
+}
+
+.say__students {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.say__links {
+  display: inline-block;
+  color: #1f2937;
+  background-color: #ffffff;
+  padding: 4px 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  border-radius: 4px;
+  margin-bottom: 11px;
+}
+.say__title {
+  font-family: "Poppins", serif;
+  color: #1f2937;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 30px;
+}
+.say__descr {
+  max-width: 730px;
+  margin: 0 auto;
+  color: #4b5563;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.say__cards {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: auto;
+  padding: 20px 0;
+}
+.say__cards::-webkit-scrollbar {
+  width: 20px;
+}
+.say__cards::-webkit-scrollbar-track {
+  background-color: #fcd8ca;
+}
+.say__cards::-webkit-scrollbar-thumb {
+  background-color: #00353b;
+
+  border-radius: 10px;
+}
+.say__card {
+  min-width: 400px;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.icon-star-full1 {
+  display: block;
+  font-size: 20px;
+}
+.say__rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 33px;
+}
+.say_desc {
+  color: #1f2937;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 55px;
+}
+.say__persons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.say__img {
+  width: 48px;
+  width: 48px;
+}
+.say__img img {
+  width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.say__names h3 {
+  color: #111827;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.say__names h4 {
+  color: #6b7280;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* SAY END */
