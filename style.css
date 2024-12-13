@@ -873,3 +873,125 @@ a {
   border-radius: 8px;
 }
 /* today END */
+/* Footer START */
+.footer {
+  background-color: #00353b;
+  padding: 80px 0;
+}
+.footer__content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.footer__forms {
+  max-width: 400px;
+}
+.footer__h4 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 23px;
+}
+.footer__form-block {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.footer__form-block input {
+  height: 100%;
+  padding: 13px 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.footer__btn {
+  color: #ffffff;
+  background-color: #22a45a;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 13px 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.footer__form-link {
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.footer__link-wrapper {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  justify-content: space-between;
+}
+.footer__nav {
+}
+.footer__ul {
+  list-style: none;
+}
+.footer__list {
+}
+.footer__list-link {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer__list-link1 {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+/* Footer END */
+.hrs {
+  height: 1px;
+  background-color: #777;
+  border: none;
+}
+
+.hr {
+  background-color: #00353b;
+  padding: 32px 0;
+}
+
+/* Social START */
+.social {
+  background-color: #00353b;
+  padding: 30px 0;
+}
+
+.social__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social__link {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+.social__images-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social__wrapp-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #158e5e;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+}
+/* Social END */
