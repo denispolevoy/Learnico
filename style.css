@@ -440,7 +440,9 @@ a {
 /* Popular end */
 
 /* Student START */
-
+.student {
+  padding-bottom: 15px;
+}
 .student__wrapper {
   display: flex;
   margin-bottom: 80px;
@@ -1003,6 +1005,7 @@ a {
   border-radius: 5px;
 }
 /* Social END */
+
 @media (max-width: 1300px) {
   .wrapp {
     padding: 0 10px;
@@ -1064,8 +1067,42 @@ a {
   .popular__cards {
     padding-bottom: 50px;
   }
+  .teachers__wrapper {
+    display: grid;
+    grid-template-rows: 350px 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 0px;
+  }
+  .teachers__bg {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+  }
+  .teachers__over {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+  }
+  .teachers__community {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+  }
+  .teachers {
+    text-align: center;
+    padding-top: 67px;
+    padding-bottom: 30px;
+  }
 }
-
 @media (max-width: 767px) {
   .wrapp {
     flex-direction: column;
@@ -1136,6 +1173,9 @@ a {
   .student__wrapper {
     margin-bottom: 50px;
   }
+  .teachers__content {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 567px) {
@@ -1150,5 +1190,11 @@ a {
   }
   .student__title {
     margin-bottom: 20px;
+  }
+  .teachers__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
   }
 }
