@@ -1102,6 +1102,9 @@ a {
     padding-top: 67px;
     padding-bottom: 30px;
   }
+  .teachers__button {
+    margin-bottom: 390px;
+  }
 }
 @media (max-width: 767px) {
   .wrapp {
@@ -1196,5 +1199,18 @@ a {
     line-height: 40px;
     margin-bottom: 20px;
     font-weight: 500;
+  }
+  .say__students {
+    padding-bottom: 15px;
+  }
+  .say__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 10px;
+  }
+
+  .say_desc {
+    margin-bottom: 30px;
   }
 }
