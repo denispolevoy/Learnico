@@ -98,10 +98,13 @@ a {
   min-height: 200px;
 }
 .content__h1 {
-  font-family: "Poppins", serif;
+  /* font-family: "Poppins"; */
+  font-weight: 800;
+  font-family: "Lobster";
+  font-family: "Helvetica";
   font-size: 56px;
   line-height: 60px;
-  font-weight: 400;
+  /* font-weight: 400; */
   color: #ffffff;
   margin-bottom: 30px;
 }
@@ -995,3 +998,68 @@ a {
   border-radius: 5px;
 }
 /* Social END */
+@media (max-width: 1300px) {
+  .wrapp {
+    padding: 0 10px;
+  }
+  .container {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .content {
+    flex-direction: column;
+  }
+  .content__info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 992px) {
+  .award__img {
+    right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapp {
+    flex-direction: column;
+  }
+  .header {
+    padding: 40px 0;
+  }
+  .header__nav {
+    margin-bottom: 15px;
+  }
+  .header__nav a {
+    font-size: 18px;
+  }
+  .content__video-bg {
+    display: none;
+  }
+  .content__text {
+    max-width: 380px;
+    text-align: center;
+  }
+  .reviews {
+    flex-direction: column;
+  }
+
+  #content__videos {
+    max-width: 95%;
+    height: auto;
+  }
+  .section {
+    padding: 15px 0;
+  }
+  .content__h1 {
+    font-size: 33px;
+    line-height: 46px;
+  }
+}
+@media (max-width: 567px) {
+  .award__p {
+    font-size: 12px;
+  }
+}
