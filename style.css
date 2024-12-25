@@ -492,9 +492,12 @@ a {
 }
 
 .learn {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-gap: 30px;
 }
 .learn__images {
   position: relative;
@@ -1038,6 +1041,29 @@ a {
     flex-direction: column;
     align-items: center;
   }
+  .learn__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .learn__text {
+    text-align: center;
+  }
+  .student__bg {
+    display: none;
+  }
+  .student__content {
+    min-height: auto;
+    padding: 30px;
+  }
+  .student__text {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .popular__cards {
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1107,10 +1133,22 @@ a {
   .popular__card {
     width: 100%;
   }
+  .student__wrapper {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 567px) {
   .award__p {
     font-size: 12px;
+  }
+  .student__text {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .student__title {
+    margin-bottom: 20px;
   }
 }
