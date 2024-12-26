@@ -1108,6 +1108,9 @@ a {
   .teachers__button {
     margin-bottom: 390px;
   }
+  .footer__content {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 767px) {
   .wrapp {
@@ -1239,5 +1242,35 @@ a {
   .posts__all {
     width: 80%;
     text-align: center;
+  }
+  .today {
+    padding: 10px 0;
+  }
+  .today__buttons {
+    flex-direction: column;
+  }
+  .today__buttons a {
+    width: 100%;
+  }
+  .today__title {
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .footer__link-wrapper {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .hr {
+    padding-bottom: 10px;
+  }
+  .social__link {
+    font-size: 10px;
+  }
+  .social {
+    padding: 20px 0;
+  }
+  .social__content {
+    flex-direction: column;
+    gap: 10px;
   }
 }
